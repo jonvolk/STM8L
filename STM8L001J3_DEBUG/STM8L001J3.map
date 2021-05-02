@@ -1,0 +1,818 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           stm8l10x_gpio
+     00000000  l_CABS                          
+     00000000  l_CONST                         
+     00000000  l_DABS                          
+     00000000  l_DATA                          
+     00000000  l_INITIALIZED                   
+     00000000  l_INITIALIZER                   
+     00000000  l__CODE                         
+     00000000  s_.debug_abbrev                 
+     00000000  s_.debug_frame                  
+     00000000  s_.debug_info                   
+     00000000  s_.debug_line                   
+     00000000  s_.debug_loc                    
+     00000000  s_.debug_pubnames               
+     00000000  s_CABS                          
+     00000000  s_DABS                          
+     00000000  s__CODE                         
+     00000001  l_SSEG                          
+     00000001  s_DATA                          
+     00000001  s_INITIALIZED                   
+     00000001  s_SSEG                          
+     00000003  l_GSFINAL                       
+     0000001A  l_GSINIT                        
+     00000083  l_HOME                          
+     000000CD  l_.debug_abbrev                 
+     00000124  l_CODE                          
+     00000344  l_.debug_pubnames               
+     000003C0  l_.debug_loc                    
+     00000650  l_.debug_frame                  
+     0000067B  l_.debug_line                   
+     00000819  l_.debug_info                   
+     00008000  s_HOME                          
+     00008083  s_GSINIT                        
+     0000809D  s_GSFINAL                       
+     000080A0  s_CODE                          
+     000080A0  s_CONST                         
+     000080A0  s_INITIALIZER                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000001    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00008000    00000083 =         131. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008000  A$main$45                          main
+     00008004  A$main$46                          main
+     00008008  A$main$47                          main
+     0000800C  A$main$48                          main
+     00008010  A$main$49                          main
+     00008014  A$main$50                          main
+     00008018  A$main$51                          main
+     0000801C  A$main$52                          main
+     00008020  A$main$53                          main
+     00008024  A$main$54                          main
+     00008028  A$main$55                          main
+     0000802C  A$main$56                          main
+     00008030  A$main$57                          main
+     00008034  A$main$58                          main
+     00008038  A$main$59                          main
+     0000803C  A$main$60                          main
+     00008040  A$main$61                          main
+     00008044  A$main$62                          main
+     00008048  A$main$63                          main
+     0000804C  A$main$64                          main
+     00008050  A$main$65                          main
+     00008054  A$main$66                          main
+     00008058  A$main$67                          main
+     0000805C  A$main$68                          main
+     00008060  A$main$69                          main
+     00008064  A$main$70                          main
+     00008068  A$main$71                          main
+     0000806C  A$main$72                          main
+     00008070  A$main$73                          main
+     00008074  A$main$74                          main
+     00008078  A$main$75                          main
+     0000807C  A$main$76                          main
+     00008080  A$main$110                         main
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              00008083    0000001A =          26. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008083  A$main$86                          main
+     00008086  A$main$87                          main
+     00008088  A$main$89                          main
+     0000808C  A$main$90                          main
+     0000808D  A$main$91                          main
+     0000808F  A$main$93                          main
+     00008092  A$main$94                          main
+     00008094  A$main$96                          main
+     00008097  A$main$97                          main
+     0000809A  A$main$98                          main
+     0000809B  A$main$99                          main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             0000809D    00000003 =           3. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000809D  A$main$103                         main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080A0    00000124 =         292. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000080A0  A$main$131                         main
+     000080A0  Smain$main$0                       main
+     000080A0  Smain$main$1                       main
+     000080A0  Smain$main$2                       main
+     000080A0  _main                              main
+     000080A3  A$main$139                         main
+     000080A3  Smain$main$3                       main
+     000080A3  Smain$main$4                       main
+     000080A3  XG$main$0$0                        main
+     000080A4  A$stm8l10x_it$88                   stm8l10x_it
+     000080A4  Smain$main$5                       main
+     000080A4  Sstm8l10x_it$TRAP_IRQHandler$0     stm8l10x_it
+     000080A4  Sstm8l10x_it$TRAP_IRQHandler$1     stm8l10x_it
+     000080A4  Sstm8l10x_it$TRAP_IRQHandler$2     stm8l10x_it
+     000080A4  Sstm8l10x_it$TRAP_IRQHandler$3     stm8l10x_it
+     000080A4  XG$TRAP_IRQHandler$0$0             stm8l10x_it
+     000080A4  _TRAP_IRQHandler                   stm8l10x_it
+     000080A5  A$stm8l10x_it$107                  stm8l10x_it
+     000080A5  Sstm8l10x_it$FLASH_IRQHandler$5    stm8l10x_it
+     000080A5  Sstm8l10x_it$FLASH_IRQHandler$6    stm8l10x_it
+     000080A5  Sstm8l10x_it$FLASH_IRQHandler$7    stm8l10x_it
+     000080A5  Sstm8l10x_it$FLASH_IRQHandler$8    stm8l10x_it
+     000080A5  Sstm8l10x_it$TRAP_IRQHandler$4     stm8l10x_it
+     000080A5  XG$FLASH_IRQHandler$0$0            stm8l10x_it
+     000080A5  _FLASH_IRQHandler                  stm8l10x_it
+     000080A6  A$stm8l10x_it$126                  stm8l10x_it
+     000080A6  Sstm8l10x_it$AWU_IRQHandler$10     stm8l10x_it
+     000080A6  Sstm8l10x_it$AWU_IRQHandler$11     stm8l10x_it
+     000080A6  Sstm8l10x_it$AWU_IRQHandler$12     stm8l10x_it
+     000080A6  Sstm8l10x_it$AWU_IRQHandler$13     stm8l10x_it
+     000080A6  Sstm8l10x_it$FLASH_IRQHandler$9    stm8l10x_it
+     000080A6  XG$AWU_IRQHandler$0$0              stm8l10x_it
+     000080A6  _AWU_IRQHandler                    stm8l10x_it
+     000080A7  A$stm8l10x_it$145                  stm8l10x_it
+     000080A7  Sstm8l10x_it$AWU_IRQHandler$14     stm8l10x_it
+     000080A7  Sstm8l10x_it$EXTIB_IRQHandler$15   stm8l10x_it
+     000080A7  Sstm8l10x_it$EXTIB_IRQHandler$16   stm8l10x_it
+     000080A7  Sstm8l10x_it$EXTIB_IRQHandler$17   stm8l10x_it
+     000080A7  Sstm8l10x_it$EXTIB_IRQHandler$18   stm8l10x_it
+     000080A7  XG$EXTIB_IRQHandler$0$0            stm8l10x_it
+     000080A7  _EXTIB_IRQHandler                  stm8l10x_it
+     000080A8  A$stm8l10x_it$164                  stm8l10x_it
+     000080A8  Sstm8l10x_it$EXTIB_IRQHandler$19   stm8l10x_it
+     000080A8  Sstm8l10x_it$EXTID_IRQHandler$20   stm8l10x_it
+     000080A8  Sstm8l10x_it$EXTID_IRQHandler$21   stm8l10x_it
+     000080A8  Sstm8l10x_it$EXTID_IRQHandler$22   stm8l10x_it
+     000080A8  Sstm8l10x_it$EXTID_IRQHandler$23   stm8l10x_it
+     000080A8  XG$EXTID_IRQHandler$0$0            stm8l10x_it
+     000080A8  _EXTID_IRQHandler                  stm8l10x_it
+     000080A9  A$stm8l10x_it$183                  stm8l10x_it
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080A0    00000124 =         292. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000080A9  Sstm8l10x_it$EXTI0_IRQHandler$25   stm8l10x_it
+     000080A9  Sstm8l10x_it$EXTI0_IRQHandler$26   stm8l10x_it
+     000080A9  Sstm8l10x_it$EXTI0_IRQHandler$27   stm8l10x_it
+     000080A9  Sstm8l10x_it$EXTI0_IRQHandler$28   stm8l10x_it
+     000080A9  Sstm8l10x_it$EXTID_IRQHandler$24   stm8l10x_it
+     000080A9  XG$EXTI0_IRQHandler$0$0            stm8l10x_it
+     000080A9  _EXTI0_IRQHandler                  stm8l10x_it
+     000080AA  A$stm8l10x_it$202                  stm8l10x_it
+     000080AA  Sstm8l10x_it$EXTI0_IRQHandler$29   stm8l10x_it
+     000080AA  Sstm8l10x_it$EXTI1_IRQHandler$30   stm8l10x_it
+     000080AA  Sstm8l10x_it$EXTI1_IRQHandler$31   stm8l10x_it
+     000080AA  Sstm8l10x_it$EXTI1_IRQHandler$32   stm8l10x_it
+     000080AA  Sstm8l10x_it$EXTI1_IRQHandler$33   stm8l10x_it
+     000080AA  XG$EXTI1_IRQHandler$0$0            stm8l10x_it
+     000080AA  _EXTI1_IRQHandler                  stm8l10x_it
+     000080AB  A$stm8l10x_it$221                  stm8l10x_it
+     000080AB  Sstm8l10x_it$EXTI1_IRQHandler$34   stm8l10x_it
+     000080AB  Sstm8l10x_it$EXTI2_IRQHandler$35   stm8l10x_it
+     000080AB  Sstm8l10x_it$EXTI2_IRQHandler$36   stm8l10x_it
+     000080AB  Sstm8l10x_it$EXTI2_IRQHandler$37   stm8l10x_it
+     000080AB  Sstm8l10x_it$EXTI2_IRQHandler$38   stm8l10x_it
+     000080AB  XG$EXTI2_IRQHandler$0$0            stm8l10x_it
+     000080AB  _EXTI2_IRQHandler                  stm8l10x_it
+     000080AC  A$stm8l10x_it$240                  stm8l10x_it
+     000080AC  Sstm8l10x_it$EXTI2_IRQHandler$39   stm8l10x_it
+     000080AC  Sstm8l10x_it$EXTI3_IRQHandler$40   stm8l10x_it
+     000080AC  Sstm8l10x_it$EXTI3_IRQHandler$41   stm8l10x_it
+     000080AC  Sstm8l10x_it$EXTI3_IRQHandler$42   stm8l10x_it
+     000080AC  Sstm8l10x_it$EXTI3_IRQHandler$43   stm8l10x_it
+     000080AC  XG$EXTI3_IRQHandler$0$0            stm8l10x_it
+     000080AC  _EXTI3_IRQHandler                  stm8l10x_it
+     000080AD  A$stm8l10x_it$259                  stm8l10x_it
+     000080AD  Sstm8l10x_it$EXTI3_IRQHandler$44   stm8l10x_it
+     000080AD  Sstm8l10x_it$EXTI4_IRQHandler$45   stm8l10x_it
+     000080AD  Sstm8l10x_it$EXTI4_IRQHandler$46   stm8l10x_it
+     000080AD  Sstm8l10x_it$EXTI4_IRQHandler$47   stm8l10x_it
+     000080AD  Sstm8l10x_it$EXTI4_IRQHandler$48   stm8l10x_it
+     000080AD  XG$EXTI4_IRQHandler$0$0            stm8l10x_it
+     000080AD  _EXTI4_IRQHandler                  stm8l10x_it
+     000080AE  A$stm8l10x_it$278                  stm8l10x_it
+     000080AE  Sstm8l10x_it$EXTI4_IRQHandler$49   stm8l10x_it
+     000080AE  Sstm8l10x_it$EXTI5_IRQHandler$50   stm8l10x_it
+     000080AE  Sstm8l10x_it$EXTI5_IRQHandler$51   stm8l10x_it
+     000080AE  Sstm8l10x_it$EXTI5_IRQHandler$52   stm8l10x_it
+     000080AE  Sstm8l10x_it$EXTI5_IRQHandler$53   stm8l10x_it
+     000080AE  XG$EXTI5_IRQHandler$0$0            stm8l10x_it
+     000080AE  _EXTI5_IRQHandler                  stm8l10x_it
+     000080AF  A$stm8l10x_it$297                  stm8l10x_it
+     000080AF  Sstm8l10x_it$EXTI5_IRQHandler$54   stm8l10x_it
+     000080AF  Sstm8l10x_it$EXTI6_IRQHandler$55   stm8l10x_it
+     000080AF  Sstm8l10x_it$EXTI6_IRQHandler$56   stm8l10x_it
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080A0    00000124 =         292. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000080AF  Sstm8l10x_it$EXTI6_IRQHandler$57   stm8l10x_it
+     000080AF  Sstm8l10x_it$EXTI6_IRQHandler$58   stm8l10x_it
+     000080AF  XG$EXTI6_IRQHandler$0$0            stm8l10x_it
+     000080AF  _EXTI6_IRQHandler                  stm8l10x_it
+     000080B0  A$stm8l10x_it$316                  stm8l10x_it
+     000080B0  Sstm8l10x_it$EXTI6_IRQHandler$59   stm8l10x_it
+     000080B0  Sstm8l10x_it$EXTI7_IRQHandler$60   stm8l10x_it
+     000080B0  Sstm8l10x_it$EXTI7_IRQHandler$61   stm8l10x_it
+     000080B0  Sstm8l10x_it$EXTI7_IRQHandler$62   stm8l10x_it
+     000080B0  Sstm8l10x_it$EXTI7_IRQHandler$63   stm8l10x_it
+     000080B0  XG$EXTI7_IRQHandler$0$0            stm8l10x_it
+     000080B0  _EXTI7_IRQHandler                  stm8l10x_it
+     000080B1  A$stm8l10x_it$335                  stm8l10x_it
+     000080B1  Sstm8l10x_it$COMP_IRQHandler$65    stm8l10x_it
+     000080B1  Sstm8l10x_it$COMP_IRQHandler$66    stm8l10x_it
+     000080B1  Sstm8l10x_it$COMP_IRQHandler$67    stm8l10x_it
+     000080B1  Sstm8l10x_it$COMP_IRQHandler$68    stm8l10x_it
+     000080B1  Sstm8l10x_it$EXTI7_IRQHandler$64   stm8l10x_it
+     000080B1  XG$COMP_IRQHandler$0$0             stm8l10x_it
+     000080B1  _COMP_IRQHandler                   stm8l10x_it
+     000080B2  A$stm8l10x_it$354                  stm8l10x_it
+     000080B2  Sstm8l10x_it$COMP_IRQHandler$69    stm8l10x_it
+     000080B2  Sstm8l10x_it$TIM2_UPD_OVF_TRG_BR   stm8l10x_it
+     000080B2  Sstm8l10x_it$TIM2_UPD_OVF_TRG_BR   stm8l10x_it
+     000080B2  Sstm8l10x_it$TIM2_UPD_OVF_TRG_BR   stm8l10x_it
+     000080B2  Sstm8l10x_it$TIM2_UPD_OVF_TRG_BR   stm8l10x_it
+     000080B2  XG$TIM2_UPD_OVF_TRG_BRK_IRQHandl   stm8l10x_it
+     000080B2  _TIM2_UPD_OVF_TRG_BRK_IRQHandler   stm8l10x_it
+     000080B3  A$stm8l10x_it$373                  stm8l10x_it
+     000080B3  Sstm8l10x_it$TIM2_CAP_IRQHandler   stm8l10x_it
+     000080B3  Sstm8l10x_it$TIM2_CAP_IRQHandler   stm8l10x_it
+     000080B3  Sstm8l10x_it$TIM2_CAP_IRQHandler   stm8l10x_it
+     000080B3  Sstm8l10x_it$TIM2_CAP_IRQHandler   stm8l10x_it
+     000080B3  Sstm8l10x_it$TIM2_UPD_OVF_TRG_BR   stm8l10x_it
+     000080B3  XG$TIM2_CAP_IRQHandler$0$0         stm8l10x_it
+     000080B3  _TIM2_CAP_IRQHandler               stm8l10x_it
+     000080B4  A$stm8l10x_it$392                  stm8l10x_it
+     000080B4  Sstm8l10x_it$TIM2_CAP_IRQHandler   stm8l10x_it
+     000080B4  Sstm8l10x_it$TIM3_UPD_OVF_TRG_BR   stm8l10x_it
+     000080B4  Sstm8l10x_it$TIM3_UPD_OVF_TRG_BR   stm8l10x_it
+     000080B4  Sstm8l10x_it$TIM3_UPD_OVF_TRG_BR   stm8l10x_it
+     000080B4  Sstm8l10x_it$TIM3_UPD_OVF_TRG_BR   stm8l10x_it
+     000080B4  XG$TIM3_UPD_OVF_TRG_BRK_IRQHandl   stm8l10x_it
+     000080B4  _TIM3_UPD_OVF_TRG_BRK_IRQHandler   stm8l10x_it
+     000080B5  A$stm8l10x_it$411                  stm8l10x_it
+     000080B5  Sstm8l10x_it$TIM3_CAP_IRQHandler   stm8l10x_it
+     000080B5  Sstm8l10x_it$TIM3_CAP_IRQHandler   stm8l10x_it
+     000080B5  Sstm8l10x_it$TIM3_CAP_IRQHandler   stm8l10x_it
+     000080B5  Sstm8l10x_it$TIM3_CAP_IRQHandler   stm8l10x_it
+     000080B5  Sstm8l10x_it$TIM3_UPD_OVF_TRG_BR   stm8l10x_it
+     000080B5  XG$TIM3_CAP_IRQHandler$0$0         stm8l10x_it
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080A0    00000124 =         292. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000080B5  _TIM3_CAP_IRQHandler               stm8l10x_it
+     000080B6  A$stm8l10x_it$430                  stm8l10x_it
+     000080B6  Sstm8l10x_it$TIM3_CAP_IRQHandler   stm8l10x_it
+     000080B6  Sstm8l10x_it$TIM4_UPD_OVF_IRQHan   stm8l10x_it
+     000080B6  Sstm8l10x_it$TIM4_UPD_OVF_IRQHan   stm8l10x_it
+     000080B6  Sstm8l10x_it$TIM4_UPD_OVF_IRQHan   stm8l10x_it
+     000080B6  Sstm8l10x_it$TIM4_UPD_OVF_IRQHan   stm8l10x_it
+     000080B6  XG$TIM4_UPD_OVF_IRQHandler$0$0     stm8l10x_it
+     000080B6  _TIM4_UPD_OVF_IRQHandler           stm8l10x_it
+     000080B7  A$stm8l10x_it$449                  stm8l10x_it
+     000080B7  Sstm8l10x_it$SPI_IRQHandler$95     stm8l10x_it
+     000080B7  Sstm8l10x_it$SPI_IRQHandler$96     stm8l10x_it
+     000080B7  Sstm8l10x_it$SPI_IRQHandler$97     stm8l10x_it
+     000080B7  Sstm8l10x_it$SPI_IRQHandler$98     stm8l10x_it
+     000080B7  Sstm8l10x_it$TIM4_UPD_OVF_IRQHan   stm8l10x_it
+     000080B7  XG$SPI_IRQHandler$0$0              stm8l10x_it
+     000080B7  _SPI_IRQHandler                    stm8l10x_it
+     000080B8  A$stm8l10x_it$468                  stm8l10x_it
+     000080B8  Sstm8l10x_it$SPI_IRQHandler$99     stm8l10x_it
+     000080B8  Sstm8l10x_it$USART_TX_IRQHandler   stm8l10x_it
+     000080B8  Sstm8l10x_it$USART_TX_IRQHandler   stm8l10x_it
+     000080B8  Sstm8l10x_it$USART_TX_IRQHandler   stm8l10x_it
+     000080B8  Sstm8l10x_it$USART_TX_IRQHandler   stm8l10x_it
+     000080B8  XG$USART_TX_IRQHandler$0$0         stm8l10x_it
+     000080B8  _USART_TX_IRQHandler               stm8l10x_it
+     000080B9  A$stm8l10x_it$487                  stm8l10x_it
+     000080B9  Sstm8l10x_it$USART_RX_IRQHandler   stm8l10x_it
+     000080B9  Sstm8l10x_it$USART_RX_IRQHandler   stm8l10x_it
+     000080B9  Sstm8l10x_it$USART_RX_IRQHandler   stm8l10x_it
+     000080B9  Sstm8l10x_it$USART_RX_IRQHandler   stm8l10x_it
+     000080B9  Sstm8l10x_it$USART_TX_IRQHandler   stm8l10x_it
+     000080B9  XG$USART_RX_IRQHandler$0$0         stm8l10x_it
+     000080B9  _USART_RX_IRQHandler               stm8l10x_it
+     000080BA  A$stm8l10x_it$506                  stm8l10x_it
+     000080BA  Sstm8l10x_it$I2C_IRQHandler$110    stm8l10x_it
+     000080BA  Sstm8l10x_it$I2C_IRQHandler$111    stm8l10x_it
+     000080BA  Sstm8l10x_it$I2C_IRQHandler$112    stm8l10x_it
+     000080BA  Sstm8l10x_it$I2C_IRQHandler$113    stm8l10x_it
+     000080BA  Sstm8l10x_it$USART_RX_IRQHandler   stm8l10x_it
+     000080BA  XG$I2C_IRQHandler$0$0              stm8l10x_it
+     000080BA  _I2C_IRQHandler                    stm8l10x_it
+     000080BB  A$stm8l10x_gpio$73                 stm8l10x_gpio
+     000080BB  Sstm8l10x_gpio$GPIO_DeInit$0       stm8l10x_gpio
+     000080BB  Sstm8l10x_gpio$GPIO_DeInit$1       stm8l10x_gpio
+     000080BB  Sstm8l10x_gpio$GPIO_DeInit$2       stm8l10x_gpio
+     000080BB  Sstm8l10x_it$I2C_IRQHandler$114    stm8l10x_it
+     000080BB  _GPIO_DeInit                       stm8l10x_gpio
+     000080BD  A$stm8l10x_gpio$75                 stm8l10x_gpio
+     000080BF  A$stm8l10x_gpio$79                 stm8l10x_gpio
+     000080BF  Sstm8l10x_gpio$GPIO_DeInit$3       stm8l10x_gpio
+     000080C0  A$stm8l10x_gpio$80                 stm8l10x_gpio
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080A0    00000124 =         292. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000080C1  A$stm8l10x_gpio$81                 stm8l10x_gpio
+     000080C2  A$stm8l10x_gpio$83                 stm8l10x_gpio
+     000080C3  A$stm8l10x_gpio$87                 stm8l10x_gpio
+     000080C3  Sstm8l10x_gpio$GPIO_DeInit$4       stm8l10x_gpio
+     000080C4  A$stm8l10x_gpio$88                 stm8l10x_gpio
+     000080C7  A$stm8l10x_gpio$90                 stm8l10x_gpio
+     000080C8  A$stm8l10x_gpio$94                 stm8l10x_gpio
+     000080C8  Sstm8l10x_gpio$GPIO_DeInit$5       stm8l10x_gpio
+     000080C9  A$stm8l10x_gpio$95                 stm8l10x_gpio
+     000080CC  A$stm8l10x_gpio$97                 stm8l10x_gpio
+     000080CD  A$stm8l10x_gpio$105                stm8l10x_gpio
+     000080CD  Sstm8l10x_gpio$GPIO_DeInit$6       stm8l10x_gpio
+     000080CD  Sstm8l10x_gpio$GPIO_DeInit$7       stm8l10x_gpio
+     000080CD  XG$GPIO_DeInit$0$0                 stm8l10x_gpio
+     000080CE  A$stm8l10x_gpio$117                stm8l10x_gpio
+     000080CE  Sstm8l10x_gpio$GPIO_DeInit$8       stm8l10x_gpio
+     000080CE  Sstm8l10x_gpio$GPIO_Init$10        stm8l10x_gpio
+     000080CE  Sstm8l10x_gpio$GPIO_Init$9         stm8l10x_gpio
+     000080CE  _GPIO_Init                         stm8l10x_gpio
+     000080D0  A$stm8l10x_gpio$122                stm8l10x_gpio
+     000080D0  Sstm8l10x_gpio$GPIO_Init$11        stm8l10x_gpio
+     000080D0  Sstm8l10x_gpio$GPIO_Init$12        stm8l10x_gpio
+     000080D2  A$stm8l10x_gpio$123                stm8l10x_gpio
+     000080D4  A$stm8l10x_gpio$127                stm8l10x_gpio
+     000080D4  Sstm8l10x_gpio$GPIO_Init$13        stm8l10x_gpio
+     000080D6  A$stm8l10x_gpio$128                stm8l10x_gpio
+     000080D7  A$stm8l10x_gpio$129                stm8l10x_gpio
+     000080D9  A$stm8l10x_gpio$133                stm8l10x_gpio
+     000080D9  Sstm8l10x_gpio$GPIO_Init$14        stm8l10x_gpio
+     000080DB  A$stm8l10x_gpio$134                stm8l10x_gpio
+     000080DC  A$stm8l10x_gpio$135                stm8l10x_gpio
+     000080DD  A$stm8l10x_gpio$139                stm8l10x_gpio
+     000080DD  Sstm8l10x_gpio$GPIO_Init$15        stm8l10x_gpio
+     000080DF  A$stm8l10x_gpio$140                stm8l10x_gpio
+     000080E1  A$stm8l10x_gpio$141                stm8l10x_gpio
+     000080E4  A$stm8l10x_gpio$147                stm8l10x_gpio
+     000080E4  Sstm8l10x_gpio$GPIO_Init$16        stm8l10x_gpio
+     000080E6  A$stm8l10x_gpio$148                stm8l10x_gpio
+     000080E8  A$stm8l10x_gpio$153                stm8l10x_gpio
+     000080E8  Sstm8l10x_gpio$GPIO_Init$17        stm8l10x_gpio
+     000080E8  Sstm8l10x_gpio$GPIO_Init$18        stm8l10x_gpio
+     000080E9  A$stm8l10x_gpio$155                stm8l10x_gpio
+     000080E9  Sstm8l10x_gpio$GPIO_Init$19        stm8l10x_gpio
+     000080EB  A$stm8l10x_gpio$156                stm8l10x_gpio
+     000080ED  A$stm8l10x_gpio$157                stm8l10x_gpio
+     000080EE  A$stm8l10x_gpio$159                stm8l10x_gpio
+     000080EE  Sstm8l10x_gpio$GPIO_Init$20        stm8l10x_gpio
+     000080F0  A$stm8l10x_gpio$160                stm8l10x_gpio
+     000080F3  A$stm8l10x_gpio$167                stm8l10x_gpio
+     000080F3  Sstm8l10x_gpio$GPIO_Init$21        stm8l10x_gpio
+     000080F3  Sstm8l10x_gpio$GPIO_Init$22        stm8l10x_gpio
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080A0    00000124 =         292. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000080F5  A$stm8l10x_gpio$169                stm8l10x_gpio
+     000080F7  A$stm8l10x_gpio$170                stm8l10x_gpio
+     000080F9  A$stm8l10x_gpio$173                stm8l10x_gpio
+     000080F9  Sstm8l10x_gpio$GPIO_Init$23        stm8l10x_gpio
+     000080FC  A$stm8l10x_gpio$180                stm8l10x_gpio
+     000080FC  Sstm8l10x_gpio$GPIO_Init$24        stm8l10x_gpio
+     000080FC  Sstm8l10x_gpio$GPIO_Init$25        stm8l10x_gpio
+     000080FE  A$stm8l10x_gpio$182                stm8l10x_gpio
+     00008100  A$stm8l10x_gpio$183                stm8l10x_gpio
+     00008102  A$stm8l10x_gpio$190                stm8l10x_gpio
+     00008102  Sstm8l10x_gpio$GPIO_Init$26        stm8l10x_gpio
+     00008102  Sstm8l10x_gpio$GPIO_Init$27        stm8l10x_gpio
+     00008103  A$stm8l10x_gpio$192                stm8l10x_gpio
+     00008105  A$stm8l10x_gpio$194                stm8l10x_gpio
+     00008106  A$stm8l10x_gpio$197                stm8l10x_gpio
+     00008106  Sstm8l10x_gpio$GPIO_Init$28        stm8l10x_gpio
+     00008109  A$stm8l10x_gpio$204                stm8l10x_gpio
+     00008109  Sstm8l10x_gpio$GPIO_Init$29        stm8l10x_gpio
+     00008109  Sstm8l10x_gpio$GPIO_Init$30        stm8l10x_gpio
+     0000810A  A$stm8l10x_gpio$206                stm8l10x_gpio
+     0000810C  A$stm8l10x_gpio$208                stm8l10x_gpio
+     0000810D  A$stm8l10x_gpio$215                stm8l10x_gpio
+     0000810D  Sstm8l10x_gpio$GPIO_Init$31        stm8l10x_gpio
+     0000810D  Sstm8l10x_gpio$GPIO_Init$32        stm8l10x_gpio
+     0000810F  A$stm8l10x_gpio$216                stm8l10x_gpio
+     00008112  A$stm8l10x_gpio$218                stm8l10x_gpio
+     00008113  A$stm8l10x_gpio$222                stm8l10x_gpio
+     00008113  Sstm8l10x_gpio$GPIO_Init$33        stm8l10x_gpio
+     00008114  A$stm8l10x_gpio$224                stm8l10x_gpio
+     00008114  Sstm8l10x_gpio$GPIO_Init$34        stm8l10x_gpio
+     00008116  A$stm8l10x_gpio$225                stm8l10x_gpio
+     00008118  A$stm8l10x_gpio$226                stm8l10x_gpio
+     00008119  A$stm8l10x_gpio$228                stm8l10x_gpio
+     00008119  Sstm8l10x_gpio$GPIO_Init$35        stm8l10x_gpio
+     0000811B  A$stm8l10x_gpio$229                stm8l10x_gpio
+     0000811E  A$stm8l10x_gpio$236                stm8l10x_gpio
+     0000811E  Sstm8l10x_gpio$GPIO_Init$36        stm8l10x_gpio
+     0000811E  Sstm8l10x_gpio$GPIO_Init$37        stm8l10x_gpio
+     00008120  A$stm8l10x_gpio$238                stm8l10x_gpio
+     00008121  A$stm8l10x_gpio$241                stm8l10x_gpio
+     00008121  Sstm8l10x_gpio$GPIO_Init$38        stm8l10x_gpio
+     00008124  A$stm8l10x_gpio$248                stm8l10x_gpio
+     00008124  Sstm8l10x_gpio$GPIO_Init$39        stm8l10x_gpio
+     00008124  Sstm8l10x_gpio$GPIO_Init$40        stm8l10x_gpio
+     00008126  A$stm8l10x_gpio$250                stm8l10x_gpio
+     00008127  A$stm8l10x_gpio$257                stm8l10x_gpio
+     00008127  Sstm8l10x_gpio$GPIO_Init$41        stm8l10x_gpio
+     00008127  Sstm8l10x_gpio$GPIO_Init$42        stm8l10x_gpio
+     00008129  A$stm8l10x_gpio$258                stm8l10x_gpio
+     0000812C  A$stm8l10x_gpio$260                stm8l10x_gpio
+     0000812D  A$stm8l10x_gpio$264                stm8l10x_gpio
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080A0    00000124 =         292. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000812D  Sstm8l10x_gpio$GPIO_Init$43        stm8l10x_gpio
+     0000812E  A$stm8l10x_gpio$266                stm8l10x_gpio
+     0000812E  Sstm8l10x_gpio$GPIO_Init$44        stm8l10x_gpio
+     00008130  A$stm8l10x_gpio$267                stm8l10x_gpio
+     00008132  A$stm8l10x_gpio$268                stm8l10x_gpio
+     00008133  A$stm8l10x_gpio$270                stm8l10x_gpio
+     00008133  Sstm8l10x_gpio$GPIO_Init$45        stm8l10x_gpio
+     00008135  A$stm8l10x_gpio$271                stm8l10x_gpio
+     00008138  A$stm8l10x_gpio$278                stm8l10x_gpio
+     00008138  Sstm8l10x_gpio$GPIO_Init$46        stm8l10x_gpio
+     00008138  Sstm8l10x_gpio$GPIO_Init$47        stm8l10x_gpio
+     0000813A  A$stm8l10x_gpio$280                stm8l10x_gpio
+     0000813B  A$stm8l10x_gpio$283                stm8l10x_gpio
+     0000813B  Sstm8l10x_gpio$GPIO_Init$48        stm8l10x_gpio
+     0000813E  A$stm8l10x_gpio$290                stm8l10x_gpio
+     0000813E  Sstm8l10x_gpio$GPIO_Init$49        stm8l10x_gpio
+     0000813E  Sstm8l10x_gpio$GPIO_Init$50        stm8l10x_gpio
+     00008140  A$stm8l10x_gpio$292                stm8l10x_gpio
+     00008141  A$stm8l10x_gpio$299                stm8l10x_gpio
+     00008141  Sstm8l10x_gpio$GPIO_Init$51        stm8l10x_gpio
+     00008141  Sstm8l10x_gpio$GPIO_Init$52        stm8l10x_gpio
+     00008143  A$stm8l10x_gpio$303                stm8l10x_gpio
+     00008143  Sstm8l10x_gpio$GPIO_Init$53        stm8l10x_gpio
+     00008143  Sstm8l10x_gpio$GPIO_Init$54        stm8l10x_gpio
+     00008143  XG$GPIO_Init$0$0                   stm8l10x_gpio
+     00008144  A$stm8l10x_gpio$318                stm8l10x_gpio
+     00008144  Sstm8l10x_gpio$GPIO_Init$55        stm8l10x_gpio
+     00008144  Sstm8l10x_gpio$GPIO_Write$56       stm8l10x_gpio
+     00008144  Sstm8l10x_gpio$GPIO_Write$57       stm8l10x_gpio
+     00008144  Sstm8l10x_gpio$GPIO_Write$58       stm8l10x_gpio
+     00008144  _GPIO_Write                        stm8l10x_gpio
+     00008146  A$stm8l10x_gpio$320                stm8l10x_gpio
+     00008148  A$stm8l10x_gpio$321                stm8l10x_gpio
+     00008149  A$stm8l10x_gpio$329                stm8l10x_gpio
+     00008149  Sstm8l10x_gpio$GPIO_Write$59       stm8l10x_gpio
+     00008149  Sstm8l10x_gpio$GPIO_Write$60       stm8l10x_gpio
+     00008149  XG$GPIO_Write$0$0                  stm8l10x_gpio
+     0000814A  A$stm8l10x_gpio$341                stm8l10x_gpio
+     0000814A  Sstm8l10x_gpio$GPIO_Write$61       stm8l10x_gpio
+     0000814A  Sstm8l10x_gpio$GPIO_WriteBit$62    stm8l10x_gpio
+     0000814A  Sstm8l10x_gpio$GPIO_WriteBit$63    stm8l10x_gpio
+     0000814A  _GPIO_WriteBit                     stm8l10x_gpio
+     0000814B  A$stm8l10x_gpio$346                stm8l10x_gpio
+     0000814B  Sstm8l10x_gpio$GPIO_WriteBit$64    stm8l10x_gpio
+     0000814B  Sstm8l10x_gpio$GPIO_WriteBit$65    stm8l10x_gpio
+     0000814D  A$stm8l10x_gpio$348                stm8l10x_gpio
+     0000814F  A$stm8l10x_gpio$349                stm8l10x_gpio
+     00008150  A$stm8l10x_gpio$351                stm8l10x_gpio
+     00008150  Sstm8l10x_gpio$GPIO_WriteBit$66    stm8l10x_gpio
+     00008152  A$stm8l10x_gpio$352                stm8l10x_gpio
+     00008154  A$stm8l10x_gpio$354                stm8l10x_gpio
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080A0    00000124 =         292. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008156  A$stm8l10x_gpio$355                stm8l10x_gpio
+     00008157  A$stm8l10x_gpio$356                stm8l10x_gpio
+     00008159  A$stm8l10x_gpio$358                stm8l10x_gpio
+     0000815A  A$stm8l10x_gpio$361                stm8l10x_gpio
+     0000815A  Sstm8l10x_gpio$GPIO_WriteBit$67    stm8l10x_gpio
+     0000815B  A$stm8l10x_gpio$363                stm8l10x_gpio
+     0000815B  Sstm8l10x_gpio$GPIO_WriteBit$68    stm8l10x_gpio
+     0000815C  A$stm8l10x_gpio$364                stm8l10x_gpio
+     0000815E  A$stm8l10x_gpio$365                stm8l10x_gpio
+     0000815F  A$stm8l10x_gpio$370                stm8l10x_gpio
+     0000815F  Sstm8l10x_gpio$GPIO_WriteBit$69    stm8l10x_gpio
+     0000815F  Sstm8l10x_gpio$GPIO_WriteBit$70    stm8l10x_gpio
+     00008161  A$stm8l10x_gpio$371                stm8l10x_gpio
+     00008163  A$stm8l10x_gpio$372                stm8l10x_gpio
+     00008166  A$stm8l10x_gpio$378                stm8l10x_gpio
+     00008166  Sstm8l10x_gpio$GPIO_WriteBit$71    stm8l10x_gpio
+     00008166  Sstm8l10x_gpio$GPIO_WriteBit$72    stm8l10x_gpio
+     00008168  A$stm8l10x_gpio$380                stm8l10x_gpio
+     00008169  A$stm8l10x_gpio$383                stm8l10x_gpio
+     00008169  Sstm8l10x_gpio$GPIO_WriteBit$73    stm8l10x_gpio
+     0000816C  A$stm8l10x_gpio$390                stm8l10x_gpio
+     0000816C  Sstm8l10x_gpio$GPIO_WriteBit$74    stm8l10x_gpio
+     0000816C  Sstm8l10x_gpio$GPIO_WriteBit$75    stm8l10x_gpio
+     0000816D  A$stm8l10x_gpio$392                stm8l10x_gpio
+     0000816F  A$stm8l10x_gpio$394                stm8l10x_gpio
+     00008170  A$stm8l10x_gpio$401                stm8l10x_gpio
+     00008170  Sstm8l10x_gpio$GPIO_WriteBit$76    stm8l10x_gpio
+     00008170  Sstm8l10x_gpio$GPIO_WriteBit$77    stm8l10x_gpio
+     00008171  A$stm8l10x_gpio$405                stm8l10x_gpio
+     00008171  Sstm8l10x_gpio$GPIO_WriteBit$78    stm8l10x_gpio
+     00008171  Sstm8l10x_gpio$GPIO_WriteBit$79    stm8l10x_gpio
+     00008171  XG$GPIO_WriteBit$0$0               stm8l10x_gpio
+     00008172  A$stm8l10x_gpio$420                stm8l10x_gpio
+     00008172  Sstm8l10x_gpio$GPIO_SetBits$81     stm8l10x_gpio
+     00008172  Sstm8l10x_gpio$GPIO_SetBits$82     stm8l10x_gpio
+     00008172  Sstm8l10x_gpio$GPIO_SetBits$83     stm8l10x_gpio
+     00008172  Sstm8l10x_gpio$GPIO_WriteBit$80    stm8l10x_gpio
+     00008172  _GPIO_SetBits                      stm8l10x_gpio
+     00008174  A$stm8l10x_gpio$422                stm8l10x_gpio
+     00008175  A$stm8l10x_gpio$424                stm8l10x_gpio
+     00008177  A$stm8l10x_gpio$426                stm8l10x_gpio
+     00008178  A$stm8l10x_gpio$434                stm8l10x_gpio
+     00008178  Sstm8l10x_gpio$GPIO_SetBits$84     stm8l10x_gpio
+     00008178  Sstm8l10x_gpio$GPIO_SetBits$85     stm8l10x_gpio
+     00008178  XG$GPIO_SetBits$0$0                stm8l10x_gpio
+     00008179  A$stm8l10x_gpio$446                stm8l10x_gpio
+     00008179  Sstm8l10x_gpio$GPIO_ResetBits$87   stm8l10x_gpio
+     00008179  Sstm8l10x_gpio$GPIO_ResetBits$88   stm8l10x_gpio
+     00008179  Sstm8l10x_gpio$GPIO_SetBits$86     stm8l10x_gpio
+     00008179  _GPIO_ResetBits                    stm8l10x_gpio
+     0000817A  A$stm8l10x_gpio$451                stm8l10x_gpio
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080A0    00000124 =         292. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000817A  Sstm8l10x_gpio$GPIO_ResetBits$89   stm8l10x_gpio
+     0000817A  Sstm8l10x_gpio$GPIO_ResetBits$90   stm8l10x_gpio
+     0000817C  A$stm8l10x_gpio$453                stm8l10x_gpio
+     0000817D  A$stm8l10x_gpio$454                stm8l10x_gpio
+     0000817F  A$stm8l10x_gpio$456                stm8l10x_gpio
+     00008181  A$stm8l10x_gpio$457                stm8l10x_gpio
+     00008182  A$stm8l10x_gpio$459                stm8l10x_gpio
+     00008184  A$stm8l10x_gpio$461                stm8l10x_gpio
+     00008185  A$stm8l10x_gpio$467                stm8l10x_gpio
+     00008185  Sstm8l10x_gpio$GPIO_ResetBits$91   stm8l10x_gpio
+     00008186  A$stm8l10x_gpio$471                stm8l10x_gpio
+     00008186  Sstm8l10x_gpio$GPIO_ResetBits$92   stm8l10x_gpio
+     00008186  Sstm8l10x_gpio$GPIO_ResetBits$93   stm8l10x_gpio
+     00008186  XG$GPIO_ResetBits$0$0              stm8l10x_gpio
+     00008187  A$stm8l10x_gpio$486                stm8l10x_gpio
+     00008187  Sstm8l10x_gpio$GPIO_ResetBits$94   stm8l10x_gpio
+     00008187  Sstm8l10x_gpio$GPIO_ToggleBits$9   stm8l10x_gpio
+     00008187  Sstm8l10x_gpio$GPIO_ToggleBits$9   stm8l10x_gpio
+     00008187  Sstm8l10x_gpio$GPIO_ToggleBits$9   stm8l10x_gpio
+     00008187  _GPIO_ToggleBits                   stm8l10x_gpio
+     00008189  A$stm8l10x_gpio$488                stm8l10x_gpio
+     0000818A  A$stm8l10x_gpio$490                stm8l10x_gpio
+     0000818C  A$stm8l10x_gpio$492                stm8l10x_gpio
+     0000818D  A$stm8l10x_gpio$500                stm8l10x_gpio
+     0000818D  Sstm8l10x_gpio$GPIO_ToggleBits$9   stm8l10x_gpio
+     0000818D  Sstm8l10x_gpio$GPIO_ToggleBits$9   stm8l10x_gpio
+     0000818D  XG$GPIO_ToggleBits$0$0             stm8l10x_gpio
+     0000818E  A$stm8l10x_gpio$515                stm8l10x_gpio
+     0000818E  Sstm8l10x_gpio$GPIO_ReadInputDat   stm8l10x_gpio
+     0000818E  Sstm8l10x_gpio$GPIO_ReadInputDat   stm8l10x_gpio
+     0000818E  Sstm8l10x_gpio$GPIO_ReadInputDat   stm8l10x_gpio
+     0000818E  Sstm8l10x_gpio$GPIO_ToggleBits$1   stm8l10x_gpio
+     0000818E  _GPIO_ReadInputData                stm8l10x_gpio
+     00008190  A$stm8l10x_gpio$518                stm8l10x_gpio
+     00008192  A$stm8l10x_gpio$527                stm8l10x_gpio
+     00008192  Sstm8l10x_gpio$GPIO_ReadInputDat   stm8l10x_gpio
+     00008192  Sstm8l10x_gpio$GPIO_ReadInputDat   stm8l10x_gpio
+     00008192  XG$GPIO_ReadInputData$0$0          stm8l10x_gpio
+     00008193  A$stm8l10x_gpio$542                stm8l10x_gpio
+     00008193  Sstm8l10x_gpio$GPIO_ReadInputDat   stm8l10x_gpio
+     00008193  Sstm8l10x_gpio$GPIO_ReadOutputDa   stm8l10x_gpio
+     00008193  Sstm8l10x_gpio$GPIO_ReadOutputDa   stm8l10x_gpio
+     00008193  Sstm8l10x_gpio$GPIO_ReadOutputDa   stm8l10x_gpio
+     00008193  _GPIO_ReadOutputData               stm8l10x_gpio
+     00008195  A$stm8l10x_gpio$544                stm8l10x_gpio
+     00008196  A$stm8l10x_gpio$553                stm8l10x_gpio
+     00008196  Sstm8l10x_gpio$GPIO_ReadOutputDa   stm8l10x_gpio
+     00008196  Sstm8l10x_gpio$GPIO_ReadOutputDa   stm8l10x_gpio
+     00008196  XG$GPIO_ReadOutputData$0$0         stm8l10x_gpio
+     00008197  A$stm8l10x_gpio$568                stm8l10x_gpio
+     00008197  Sstm8l10x_gpio$GPIO_ReadInputDat   stm8l10x_gpio
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080A0    00000124 =         292. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008197  Sstm8l10x_gpio$GPIO_ReadInputDat   stm8l10x_gpio
+     00008197  Sstm8l10x_gpio$GPIO_ReadInputDat   stm8l10x_gpio
+     00008197  Sstm8l10x_gpio$GPIO_ReadOutputDa   stm8l10x_gpio
+     00008197  _GPIO_ReadInputDataBit             stm8l10x_gpio
+     00008199  A$stm8l10x_gpio$571                stm8l10x_gpio
+     0000819B  A$stm8l10x_gpio$573                stm8l10x_gpio
+     0000819D  A$stm8l10x_gpio$582                stm8l10x_gpio
+     0000819D  Sstm8l10x_gpio$GPIO_ReadInputDat   stm8l10x_gpio
+     0000819D  Sstm8l10x_gpio$GPIO_ReadInputDat   stm8l10x_gpio
+     0000819D  XG$GPIO_ReadInputDataBit$0$0       stm8l10x_gpio
+     0000819E  A$stm8l10x_gpio$597                stm8l10x_gpio
+     0000819E  Sstm8l10x_gpio$GPIO_ReadInputDat   stm8l10x_gpio
+     0000819E  Sstm8l10x_gpio$GPIO_ReadOutputDa   stm8l10x_gpio
+     0000819E  Sstm8l10x_gpio$GPIO_ReadOutputDa   stm8l10x_gpio
+     0000819E  Sstm8l10x_gpio$GPIO_ReadOutputDa   stm8l10x_gpio
+     0000819E  _GPIO_ReadOutputDataBit            stm8l10x_gpio
+     000081A0  A$stm8l10x_gpio$599                stm8l10x_gpio
+     000081A1  A$stm8l10x_gpio$601                stm8l10x_gpio
+     000081A3  A$stm8l10x_gpio$610                stm8l10x_gpio
+     000081A3  Sstm8l10x_gpio$GPIO_ReadOutputDa   stm8l10x_gpio
+     000081A3  Sstm8l10x_gpio$GPIO_ReadOutputDa   stm8l10x_gpio
+     000081A3  XG$GPIO_ReadOutputDataBit$0$0      stm8l10x_gpio
+     000081A4  A$stm8l10x_gpio$622                stm8l10x_gpio
+     000081A4  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+     000081A4  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+     000081A4  Sstm8l10x_gpio$GPIO_ReadOutputDa   stm8l10x_gpio
+     000081A4  _GPIO_ExternalPullUpConfig         stm8l10x_gpio
+     000081A5  A$stm8l10x_gpio$627                stm8l10x_gpio
+     000081A5  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+     000081A5  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+     000081A7  A$stm8l10x_gpio$629                stm8l10x_gpio
+     000081AA  A$stm8l10x_gpio$631                stm8l10x_gpio
+     000081AB  A$stm8l10x_gpio$635                stm8l10x_gpio
+     000081AB  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+     000081AD  A$stm8l10x_gpio$636                stm8l10x_gpio
+     000081AF  A$stm8l10x_gpio$637                stm8l10x_gpio
+     000081B2  A$stm8l10x_gpio$643                stm8l10x_gpio
+     000081B2  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+     000081B2  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+     000081B4  A$stm8l10x_gpio$645                stm8l10x_gpio
+     000081B5  A$stm8l10x_gpio$648                stm8l10x_gpio
+     000081B5  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+     000081B8  A$stm8l10x_gpio$655                stm8l10x_gpio
+     000081B8  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+     000081B8  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+     000081B9  A$stm8l10x_gpio$657                stm8l10x_gpio
+     000081B9  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+     000081BB  A$stm8l10x_gpio$658                stm8l10x_gpio
+     000081BC  A$stm8l10x_gpio$659                stm8l10x_gpio
+     000081BE  A$stm8l10x_gpio$660                stm8l10x_gpio
+     000081BF  A$stm8l10x_gpio$663                stm8l10x_gpio
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                000080A0    00000124 =         292. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000081BF  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+     000081C1  A$stm8l10x_gpio$665                stm8l10x_gpio
+     000081C2  A$stm8l10x_gpio$672                stm8l10x_gpio
+     000081C2  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+     000081C2  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+     000081C3  A$stm8l10x_gpio$676                stm8l10x_gpio
+     000081C3  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+     000081C3  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+     000081C3  XG$GPIO_ExternalPullUpConfig$0$0   stm8l10x_gpio
+     000081C4  Sstm8l10x_gpio$GPIO_ExternalPull   stm8l10x_gpio
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.debug_line                         00000000    0000067B =        1659. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.debug_loc                          00000000    000003C0 =         960. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.debug_abbrev                       00000000    000000CD =         205. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.debug_info                         00000000    00000819 =        2073. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.debug_pubnames                     00000000    00000344 =         836. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.debug_frame                        00000000    00000650 =        1616. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+
+Files Linked                              [ module(s) ]
+
+STM8L001J3_DEBUG/main.rel                 [ main ]
+STM8L001J3_DEBUG/stm8l10x_it.rel          [ stm8l10x_it ]
+STM8L001J3_DEBUG/stm8l10x_gpio.rel        [ stm8l10x_gpio ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+
+User Base Address Definitions
+
+HOME = 0x8000
+DATA = 0x0001
+
+

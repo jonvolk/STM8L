@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "vscode_stm8_c_cpp_properties",
+            "compilerPath": "/usr/local/bin/sdcc",
+            "includePath": [
+                "${workspaceFolder}/inc/",
+                "${workspaceFolder}/STM8L10x_StdPeriph_Driver/inc/"
+            ],
+            "defines": [
+                "STM8L003",
+                "_SDCC_",
+                "__SDCC",
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": [
+                "make"
+            ]
+        }
+    ],
+    "version": 4
+}

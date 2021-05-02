@@ -1,0 +1,13 @@
+-muwx
+-i ./STM8L001J3_RELEASE/STM8L001J3.hex
+-b HOME = 0x8000
+-b DATA = 0x0001
+-k /usr/local/bin/../share/sdcc/lib/stm8
+-k /usr/local/share/sdcc/lib/stm8
+-l stm8
+-l stm8
+STM8L001J3_RELEASE/main.rel
+STM8L001J3_RELEASE/stm8l10x_it.rel
+STM8L001J3_RELEASE/stm8l10x_gpio.rel
+
+-e

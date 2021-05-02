@@ -1,0 +1,7 @@
+{
+    //"C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Enabled",
+    "files.associations": {
+        "stm8l10x.h": "c"
+    }
+}

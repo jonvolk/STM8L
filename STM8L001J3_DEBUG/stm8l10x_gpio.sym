@@ -1,0 +1,422 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 1.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =  002710 L
+    .__.ABS.                                                    =  000000 G
+    .__.CPU.                                                    =  000000 L
+    .__.H$L.                                                    =  000001 L
+  9 A$stm8l10x_gpio$105                                            000012 GR
+  9 A$stm8l10x_gpio$117                                            000013 GR
+  9 A$stm8l10x_gpio$122                                            000015 GR
+  9 A$stm8l10x_gpio$123                                            000017 GR
+  9 A$stm8l10x_gpio$127                                            000019 GR
+  9 A$stm8l10x_gpio$128                                            00001B GR
+  9 A$stm8l10x_gpio$129                                            00001C GR
+  9 A$stm8l10x_gpio$133                                            00001E GR
+  9 A$stm8l10x_gpio$134                                            000020 GR
+  9 A$stm8l10x_gpio$135                                            000021 GR
+  9 A$stm8l10x_gpio$139                                            000022 GR
+  9 A$stm8l10x_gpio$140                                            000024 GR
+  9 A$stm8l10x_gpio$141                                            000026 GR
+  9 A$stm8l10x_gpio$147                                            000029 GR
+  9 A$stm8l10x_gpio$148                                            00002B GR
+  9 A$stm8l10x_gpio$153                                            00002D GR
+  9 A$stm8l10x_gpio$155                                            00002E GR
+  9 A$stm8l10x_gpio$156                                            000030 GR
+  9 A$stm8l10x_gpio$157                                            000032 GR
+  9 A$stm8l10x_gpio$159                                            000033 GR
+  9 A$stm8l10x_gpio$160                                            000035 GR
+  9 A$stm8l10x_gpio$167                                            000038 GR
+  9 A$stm8l10x_gpio$169                                            00003A GR
+  9 A$stm8l10x_gpio$170                                            00003C GR
+  9 A$stm8l10x_gpio$173                                            00003E GR
+  9 A$stm8l10x_gpio$180                                            000041 GR
+  9 A$stm8l10x_gpio$182                                            000043 GR
+  9 A$stm8l10x_gpio$183                                            000045 GR
+  9 A$stm8l10x_gpio$190                                            000047 GR
+  9 A$stm8l10x_gpio$192                                            000048 GR
+  9 A$stm8l10x_gpio$194                                            00004A GR
+  9 A$stm8l10x_gpio$197                                            00004B GR
+  9 A$stm8l10x_gpio$204                                            00004E GR
+  9 A$stm8l10x_gpio$206                                            00004F GR
+  9 A$stm8l10x_gpio$208                                            000051 GR
+  9 A$stm8l10x_gpio$215                                            000052 GR
+  9 A$stm8l10x_gpio$216                                            000054 GR
+  9 A$stm8l10x_gpio$218                                            000057 GR
+  9 A$stm8l10x_gpio$222                                            000058 GR
+  9 A$stm8l10x_gpio$224                                            000059 GR
+  9 A$stm8l10x_gpio$225                                            00005B GR
+  9 A$stm8l10x_gpio$226                                            00005D GR
+  9 A$stm8l10x_gpio$228                                            00005E GR
+  9 A$stm8l10x_gpio$229                                            000060 GR
+  9 A$stm8l10x_gpio$236                                            000063 GR
+  9 A$stm8l10x_gpio$238                                            000065 GR
+  9 A$stm8l10x_gpio$241                                            000066 GR
+  9 A$stm8l10x_gpio$248                                            000069 GR
+  9 A$stm8l10x_gpio$250                                            00006B GR
+  9 A$stm8l10x_gpio$257                                            00006C GR
+  9 A$stm8l10x_gpio$258                                            00006E GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 2.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  9 A$stm8l10x_gpio$260                                            000071 GR
+  9 A$stm8l10x_gpio$264                                            000072 GR
+  9 A$stm8l10x_gpio$266                                            000073 GR
+  9 A$stm8l10x_gpio$267                                            000075 GR
+  9 A$stm8l10x_gpio$268                                            000077 GR
+  9 A$stm8l10x_gpio$270                                            000078 GR
+  9 A$stm8l10x_gpio$271                                            00007A GR
+  9 A$stm8l10x_gpio$278                                            00007D GR
+  9 A$stm8l10x_gpio$280                                            00007F GR
+  9 A$stm8l10x_gpio$283                                            000080 GR
+  9 A$stm8l10x_gpio$290                                            000083 GR
+  9 A$stm8l10x_gpio$292                                            000085 GR
+  9 A$stm8l10x_gpio$299                                            000086 GR
+  9 A$stm8l10x_gpio$303                                            000088 GR
+  9 A$stm8l10x_gpio$318                                            000089 GR
+  9 A$stm8l10x_gpio$320                                            00008B GR
+  9 A$stm8l10x_gpio$321                                            00008D GR
+  9 A$stm8l10x_gpio$329                                            00008E GR
+  9 A$stm8l10x_gpio$341                                            00008F GR
+  9 A$stm8l10x_gpio$346                                            000090 GR
+  9 A$stm8l10x_gpio$348                                            000092 GR
+  9 A$stm8l10x_gpio$349                                            000094 GR
+  9 A$stm8l10x_gpio$351                                            000095 GR
+  9 A$stm8l10x_gpio$352                                            000097 GR
+  9 A$stm8l10x_gpio$354                                            000099 GR
+  9 A$stm8l10x_gpio$355                                            00009B GR
+  9 A$stm8l10x_gpio$356                                            00009C GR
+  9 A$stm8l10x_gpio$358                                            00009E GR
+  9 A$stm8l10x_gpio$361                                            00009F GR
+  9 A$stm8l10x_gpio$363                                            0000A0 GR
+  9 A$stm8l10x_gpio$364                                            0000A1 GR
+  9 A$stm8l10x_gpio$365                                            0000A3 GR
+  9 A$stm8l10x_gpio$370                                            0000A4 GR
+  9 A$stm8l10x_gpio$371                                            0000A6 GR
+  9 A$stm8l10x_gpio$372                                            0000A8 GR
+  9 A$stm8l10x_gpio$378                                            0000AB GR
+  9 A$stm8l10x_gpio$380                                            0000AD GR
+  9 A$stm8l10x_gpio$383                                            0000AE GR
+  9 A$stm8l10x_gpio$390                                            0000B1 GR
+  9 A$stm8l10x_gpio$392                                            0000B2 GR
+  9 A$stm8l10x_gpio$394                                            0000B4 GR
+  9 A$stm8l10x_gpio$401                                            0000B5 GR
+  9 A$stm8l10x_gpio$405                                            0000B6 GR
+  9 A$stm8l10x_gpio$420                                            0000B7 GR
+  9 A$stm8l10x_gpio$422                                            0000B9 GR
+  9 A$stm8l10x_gpio$424                                            0000BA GR
+  9 A$stm8l10x_gpio$426                                            0000BC GR
+  9 A$stm8l10x_gpio$434                                            0000BD GR
+  9 A$stm8l10x_gpio$446                                            0000BE GR
+  9 A$stm8l10x_gpio$451                                            0000BF GR
+  9 A$stm8l10x_gpio$453                                            0000C1 GR
+  9 A$stm8l10x_gpio$454                                            0000C2 GR
+  9 A$stm8l10x_gpio$456                                            0000C4 GR
+  9 A$stm8l10x_gpio$457                                            0000C6 GR
+  9 A$stm8l10x_gpio$459                                            0000C7 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 3.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  9 A$stm8l10x_gpio$461                                            0000C9 GR
+  9 A$stm8l10x_gpio$467                                            0000CA GR
+  9 A$stm8l10x_gpio$471                                            0000CB GR
+  9 A$stm8l10x_gpio$486                                            0000CC GR
+  9 A$stm8l10x_gpio$488                                            0000CE GR
+  9 A$stm8l10x_gpio$490                                            0000CF GR
+  9 A$stm8l10x_gpio$492                                            0000D1 GR
+  9 A$stm8l10x_gpio$500                                            0000D2 GR
+  9 A$stm8l10x_gpio$515                                            0000D3 GR
+  9 A$stm8l10x_gpio$518                                            0000D5 GR
+  9 A$stm8l10x_gpio$527                                            0000D7 GR
+  9 A$stm8l10x_gpio$542                                            0000D8 GR
+  9 A$stm8l10x_gpio$544                                            0000DA GR
+  9 A$stm8l10x_gpio$553                                            0000DB GR
+  9 A$stm8l10x_gpio$568                                            0000DC GR
+  9 A$stm8l10x_gpio$571                                            0000DE GR
+  9 A$stm8l10x_gpio$573                                            0000E0 GR
+  9 A$stm8l10x_gpio$582                                            0000E2 GR
+  9 A$stm8l10x_gpio$597                                            0000E3 GR
+  9 A$stm8l10x_gpio$599                                            0000E5 GR
+  9 A$stm8l10x_gpio$601                                            0000E6 GR
+  9 A$stm8l10x_gpio$610                                            0000E8 GR
+  9 A$stm8l10x_gpio$622                                            0000E9 GR
+  9 A$stm8l10x_gpio$627                                            0000EA GR
+  9 A$stm8l10x_gpio$629                                            0000EC GR
+  9 A$stm8l10x_gpio$631                                            0000EF GR
+  9 A$stm8l10x_gpio$635                                            0000F0 GR
+  9 A$stm8l10x_gpio$636                                            0000F2 GR
+  9 A$stm8l10x_gpio$637                                            0000F4 GR
+  9 A$stm8l10x_gpio$643                                            0000F7 GR
+  9 A$stm8l10x_gpio$645                                            0000F9 GR
+  9 A$stm8l10x_gpio$648                                            0000FA GR
+  9 A$stm8l10x_gpio$655                                            0000FD GR
+  9 A$stm8l10x_gpio$657                                            0000FE GR
+  9 A$stm8l10x_gpio$658                                            000100 GR
+  9 A$stm8l10x_gpio$659                                            000101 GR
+  9 A$stm8l10x_gpio$660                                            000103 GR
+  9 A$stm8l10x_gpio$663                                            000104 GR
+  9 A$stm8l10x_gpio$665                                            000106 GR
+  9 A$stm8l10x_gpio$672                                            000107 GR
+  9 A$stm8l10x_gpio$676                                            000108 GR
+  9 A$stm8l10x_gpio$73                                             000000 GR
+  9 A$stm8l10x_gpio$75                                             000002 GR
+  9 A$stm8l10x_gpio$79                                             000004 GR
+  9 A$stm8l10x_gpio$80                                             000005 GR
+  9 A$stm8l10x_gpio$81                                             000006 GR
+  9 A$stm8l10x_gpio$83                                             000007 GR
+  9 A$stm8l10x_gpio$87                                             000008 GR
+  9 A$stm8l10x_gpio$88                                             000009 GR
+  9 A$stm8l10x_gpio$90                                             00000C GR
+  9 A$stm8l10x_gpio$94                                             00000D GR
+  9 A$stm8l10x_gpio$95                                             00000E GR
+  9 A$stm8l10x_gpio$97                                             000011 GR
+ 10 Ldebug_CIE0_end                                                000012 R
+ 10 Ldebug_CIE0_start                                              000004 R
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 4.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+ 10 Ldebug_CIE10_end                                               000200 R
+ 10 Ldebug_CIE10_start                                             0001F2 R
+ 10 Ldebug_CIE11_end                                               000261 R
+ 10 Ldebug_CIE11_start                                             000253 R
+ 10 Ldebug_CIE1_end                                                000057 R
+ 10 Ldebug_CIE1_start                                              000049 R
+ 10 Ldebug_CIE2_end                                                000080 R
+ 10 Ldebug_CIE2_start                                              000072 R
+ 10 Ldebug_CIE3_end                                                0000A9 R
+ 10 Ldebug_CIE3_start                                              00009B R
+ 10 Ldebug_CIE4_end                                                0000D2 R
+ 10 Ldebug_CIE4_start                                              0000C4 R
+ 10 Ldebug_CIE5_end                                                0000FB R
+ 10 Ldebug_CIE5_start                                              0000ED R
+ 10 Ldebug_CIE6_end                                                000124 R
+ 10 Ldebug_CIE6_start                                              000116 R
+ 10 Ldebug_CIE7_end                                                00015B R
+ 10 Ldebug_CIE7_start                                              00014D R
+ 10 Ldebug_CIE8_end                                                000184 R
+ 10 Ldebug_CIE8_start                                              000176 R
+ 10 Ldebug_CIE9_end                                                0001D7 R
+ 10 Ldebug_CIE9_start                                              0001C9 R
+  D Ldebug_abbrev                                                  000000 R
+  E Ldebug_info_end                                                000480 R
+  E Ldebug_info_start                                              000004 R
+  B Ldebug_line_end                                                0002D4 R
+  B Ldebug_line_start                                              000004 R
+  B Ldebug_line_stmt                                               0000DD R
+  C Ldebug_loc_start                                               000000 R
+  F Ldebug_pubnames_end                                            00010B R
+  F Ldebug_pubnames_start                                          000004 R
+  9 Sstm8l10x_gpio$GPIO_DeInit$0                                =  000000 GR
+  9 Sstm8l10x_gpio$GPIO_DeInit$1                                =  000000 GR
+  9 Sstm8l10x_gpio$GPIO_DeInit$2                                =  000000 GR
+  9 Sstm8l10x_gpio$GPIO_DeInit$3                                =  000004 GR
+  9 Sstm8l10x_gpio$GPIO_DeInit$4                                =  000008 GR
+  9 Sstm8l10x_gpio$GPIO_DeInit$5                                =  00000D GR
+  9 Sstm8l10x_gpio$GPIO_DeInit$6                                =  000012 GR
+  9 Sstm8l10x_gpio$GPIO_DeInit$7                                =  000012 GR
+  9 Sstm8l10x_gpio$GPIO_DeInit$8                                =  000013 GR
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$125                =  0000E9 GR
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$126                =  0000E9 GR
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$127                =  0000EA GR
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$128                =  0000EA GR
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$129                =  0000F0 GR
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$130                =  0000F7 GR
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$131                =  0000F7 GR
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$132                =  0000FA GR
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$133                =  0000FD GR
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$134                =  0000FD GR
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$135                =  0000FE GR
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$136                =  000104 GR
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$137                =  000107 GR
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$138                =  000107 GR
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$139                =  000108 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 5.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$140                =  000108 GR
+  9 Sstm8l10x_gpio$GPIO_ExternalPullUpConfig$141                =  000109 GR
+  9 Sstm8l10x_gpio$GPIO_Init$10                                 =  000013 GR
+  9 Sstm8l10x_gpio$GPIO_Init$11                                 =  000015 GR
+  9 Sstm8l10x_gpio$GPIO_Init$12                                 =  000015 GR
+  9 Sstm8l10x_gpio$GPIO_Init$13                                 =  000019 GR
+  9 Sstm8l10x_gpio$GPIO_Init$14                                 =  00001E GR
+  9 Sstm8l10x_gpio$GPIO_Init$15                                 =  000022 GR
+  9 Sstm8l10x_gpio$GPIO_Init$16                                 =  000029 GR
+  9 Sstm8l10x_gpio$GPIO_Init$17                                 =  00002D GR
+  9 Sstm8l10x_gpio$GPIO_Init$18                                 =  00002D GR
+  9 Sstm8l10x_gpio$GPIO_Init$19                                 =  00002E GR
+  9 Sstm8l10x_gpio$GPIO_Init$20                                 =  000033 GR
+  9 Sstm8l10x_gpio$GPIO_Init$21                                 =  000038 GR
+  9 Sstm8l10x_gpio$GPIO_Init$22                                 =  000038 GR
+  9 Sstm8l10x_gpio$GPIO_Init$23                                 =  00003E GR
+  9 Sstm8l10x_gpio$GPIO_Init$24                                 =  000041 GR
+  9 Sstm8l10x_gpio$GPIO_Init$25                                 =  000041 GR
+  9 Sstm8l10x_gpio$GPIO_Init$26                                 =  000047 GR
+  9 Sstm8l10x_gpio$GPIO_Init$27                                 =  000047 GR
+  9 Sstm8l10x_gpio$GPIO_Init$28                                 =  00004B GR
+  9 Sstm8l10x_gpio$GPIO_Init$29                                 =  00004E GR
+  9 Sstm8l10x_gpio$GPIO_Init$30                                 =  00004E GR
+  9 Sstm8l10x_gpio$GPIO_Init$31                                 =  000052 GR
+  9 Sstm8l10x_gpio$GPIO_Init$32                                 =  000052 GR
+  9 Sstm8l10x_gpio$GPIO_Init$33                                 =  000058 GR
+  9 Sstm8l10x_gpio$GPIO_Init$34                                 =  000059 GR
+  9 Sstm8l10x_gpio$GPIO_Init$35                                 =  00005E GR
+  9 Sstm8l10x_gpio$GPIO_Init$36                                 =  000063 GR
+  9 Sstm8l10x_gpio$GPIO_Init$37                                 =  000063 GR
+  9 Sstm8l10x_gpio$GPIO_Init$38                                 =  000066 GR
+  9 Sstm8l10x_gpio$GPIO_Init$39                                 =  000069 GR
+  9 Sstm8l10x_gpio$GPIO_Init$40                                 =  000069 GR
+  9 Sstm8l10x_gpio$GPIO_Init$41                                 =  00006C GR
+  9 Sstm8l10x_gpio$GPIO_Init$42                                 =  00006C GR
+  9 Sstm8l10x_gpio$GPIO_Init$43                                 =  000072 GR
+  9 Sstm8l10x_gpio$GPIO_Init$44                                 =  000073 GR
+  9 Sstm8l10x_gpio$GPIO_Init$45                                 =  000078 GR
+  9 Sstm8l10x_gpio$GPIO_Init$46                                 =  00007D GR
+  9 Sstm8l10x_gpio$GPIO_Init$47                                 =  00007D GR
+  9 Sstm8l10x_gpio$GPIO_Init$48                                 =  000080 GR
+  9 Sstm8l10x_gpio$GPIO_Init$49                                 =  000083 GR
+  9 Sstm8l10x_gpio$GPIO_Init$50                                 =  000083 GR
+  9 Sstm8l10x_gpio$GPIO_Init$51                                 =  000086 GR
+  9 Sstm8l10x_gpio$GPIO_Init$52                                 =  000086 GR
+  9 Sstm8l10x_gpio$GPIO_Init$53                                 =  000088 GR
+  9 Sstm8l10x_gpio$GPIO_Init$54                                 =  000088 GR
+  9 Sstm8l10x_gpio$GPIO_Init$55                                 =  000089 GR
+  9 Sstm8l10x_gpio$GPIO_Init$9                                  =  000013 GR
+  9 Sstm8l10x_gpio$GPIO_ReadInputData$101                       =  0000D3 GR
+  9 Sstm8l10x_gpio$GPIO_ReadInputData$102                       =  0000D3 GR
+  9 Sstm8l10x_gpio$GPIO_ReadInputData$103                       =  0000D3 GR
+  9 Sstm8l10x_gpio$GPIO_ReadInputData$104                       =  0000D7 GR
+  9 Sstm8l10x_gpio$GPIO_ReadInputData$105                       =  0000D7 GR
+  9 Sstm8l10x_gpio$GPIO_ReadInputData$106                       =  0000D8 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 6.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  9 Sstm8l10x_gpio$GPIO_ReadInputDataBit$113                    =  0000DC GR
+  9 Sstm8l10x_gpio$GPIO_ReadInputDataBit$114                    =  0000DC GR
+  9 Sstm8l10x_gpio$GPIO_ReadInputDataBit$115                    =  0000DC GR
+  9 Sstm8l10x_gpio$GPIO_ReadInputDataBit$116                    =  0000E2 GR
+  9 Sstm8l10x_gpio$GPIO_ReadInputDataBit$117                    =  0000E2 GR
+  9 Sstm8l10x_gpio$GPIO_ReadInputDataBit$118                    =  0000E3 GR
+  9 Sstm8l10x_gpio$GPIO_ReadOutputData$107                      =  0000D8 GR
+  9 Sstm8l10x_gpio$GPIO_ReadOutputData$108                      =  0000D8 GR
+  9 Sstm8l10x_gpio$GPIO_ReadOutputData$109                      =  0000D8 GR
+  9 Sstm8l10x_gpio$GPIO_ReadOutputData$110                      =  0000DB GR
+  9 Sstm8l10x_gpio$GPIO_ReadOutputData$111                      =  0000DB GR
+  9 Sstm8l10x_gpio$GPIO_ReadOutputData$112                      =  0000DC GR
+  9 Sstm8l10x_gpio$GPIO_ReadOutputDataBit$119                   =  0000E3 GR
+  9 Sstm8l10x_gpio$GPIO_ReadOutputDataBit$120                   =  0000E3 GR
+  9 Sstm8l10x_gpio$GPIO_ReadOutputDataBit$121                   =  0000E3 GR
+  9 Sstm8l10x_gpio$GPIO_ReadOutputDataBit$122                   =  0000E8 GR
+  9 Sstm8l10x_gpio$GPIO_ReadOutputDataBit$123                   =  0000E8 GR
+  9 Sstm8l10x_gpio$GPIO_ReadOutputDataBit$124                   =  0000E9 GR
+  9 Sstm8l10x_gpio$GPIO_ResetBits$87                            =  0000BE GR
+  9 Sstm8l10x_gpio$GPIO_ResetBits$88                            =  0000BE GR
+  9 Sstm8l10x_gpio$GPIO_ResetBits$89                            =  0000BF GR
+  9 Sstm8l10x_gpio$GPIO_ResetBits$90                            =  0000BF GR
+  9 Sstm8l10x_gpio$GPIO_ResetBits$91                            =  0000CA GR
+  9 Sstm8l10x_gpio$GPIO_ResetBits$92                            =  0000CB GR
+  9 Sstm8l10x_gpio$GPIO_ResetBits$93                            =  0000CB GR
+  9 Sstm8l10x_gpio$GPIO_ResetBits$94                            =  0000CC GR
+  9 Sstm8l10x_gpio$GPIO_SetBits$81                              =  0000B7 GR
+  9 Sstm8l10x_gpio$GPIO_SetBits$82                              =  0000B7 GR
+  9 Sstm8l10x_gpio$GPIO_SetBits$83                              =  0000B7 GR
+  9 Sstm8l10x_gpio$GPIO_SetBits$84                              =  0000BD GR
+  9 Sstm8l10x_gpio$GPIO_SetBits$85                              =  0000BD GR
+  9 Sstm8l10x_gpio$GPIO_SetBits$86                              =  0000BE GR
+  9 Sstm8l10x_gpio$GPIO_ToggleBits$100                          =  0000D3 GR
+  9 Sstm8l10x_gpio$GPIO_ToggleBits$95                           =  0000CC GR
+  9 Sstm8l10x_gpio$GPIO_ToggleBits$96                           =  0000CC GR
+  9 Sstm8l10x_gpio$GPIO_ToggleBits$97                           =  0000CC GR
+  9 Sstm8l10x_gpio$GPIO_ToggleBits$98                           =  0000D2 GR
+  9 Sstm8l10x_gpio$GPIO_ToggleBits$99                           =  0000D2 GR
+  9 Sstm8l10x_gpio$GPIO_Write$56                                =  000089 GR
+  9 Sstm8l10x_gpio$GPIO_Write$57                                =  000089 GR
+  9 Sstm8l10x_gpio$GPIO_Write$58                                =  000089 GR
+  9 Sstm8l10x_gpio$GPIO_Write$59                                =  00008E GR
+  9 Sstm8l10x_gpio$GPIO_Write$60                                =  00008E GR
+  9 Sstm8l10x_gpio$GPIO_Write$61                                =  00008F GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$62                             =  00008F GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$63                             =  00008F GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$64                             =  000090 GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$65                             =  000090 GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$66                             =  000095 GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$67                             =  00009F GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$68                             =  0000A0 GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$69                             =  0000A4 GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$70                             =  0000A4 GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$71                             =  0000AB GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$72                             =  0000AB GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 7.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  9 Sstm8l10x_gpio$GPIO_WriteBit$73                             =  0000AE GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$74                             =  0000B1 GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$75                             =  0000B1 GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$76                             =  0000B5 GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$77                             =  0000B5 GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$78                             =  0000B6 GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$79                             =  0000B6 GR
+  9 Sstm8l10x_gpio$GPIO_WriteBit$80                             =  0000B7 GR
+  9 XG$GPIO_DeInit$0$0                                          =  000012 GR
+  9 XG$GPIO_ExternalPullUpConfig$0$0                            =  000108 GR
+  9 XG$GPIO_Init$0$0                                            =  000088 GR
+  9 XG$GPIO_ReadInputData$0$0                                   =  0000D7 GR
+  9 XG$GPIO_ReadInputDataBit$0$0                                =  0000E2 GR
+  9 XG$GPIO_ReadOutputData$0$0                                  =  0000DB GR
+  9 XG$GPIO_ReadOutputDataBit$0$0                               =  0000E8 GR
+  9 XG$GPIO_ResetBits$0$0                                       =  0000CB GR
+  9 XG$GPIO_SetBits$0$0                                         =  0000BD GR
+  9 XG$GPIO_ToggleBits$0$0                                      =  0000D2 GR
+  9 XG$GPIO_Write$0$0                                           =  00008E GR
+  9 XG$GPIO_WriteBit$0$0                                        =  0000B6 GR
+  9 _GPIO_DeInit                                                   000000 GR
+  9 _GPIO_ExternalPullUpConfig                                     0000E9 GR
+  9 _GPIO_Init                                                     000013 GR
+  9 _GPIO_ReadInputData                                            0000D3 GR
+  9 _GPIO_ReadInputDataBit                                         0000DC GR
+  9 _GPIO_ReadOutputData                                           0000D8 GR
+  9 _GPIO_ReadOutputDataBit                                        0000E3 GR
+  9 _GPIO_ResetBits                                                0000BE GR
+  9 _GPIO_SetBits                                                  0000B7 GR
+  9 _GPIO_ToggleBits                                               0000CC GR
+  9 _GPIO_Write                                                    000089 GR
+  9 _GPIO_WriteBit                                                 00008F GR
+
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 8.
+Hexadecimal [24-Bits]
+
+Area Table
+
+   0 _CODE                                      size      0   flags    0
+   1 DATA                                       size      0   flags    0
+   2 INITIALIZED                                size      0   flags    0
+   3 DABS                                       size      0   flags    8
+   4 HOME                                       size      0   flags    0
+   5 GSINIT                                     size      0   flags    0
+   6 GSFINAL                                    size      0   flags    0
+   7 CONST                                      size      0   flags    0
+   8 INITIALIZER                                size      0   flags    0
+   9 CODE                                       size    109   flags    0
+   A CABS                                       size      0   flags    8
+   B .debug_line                                size    2D4   flags  100
+   C .debug_loc                                 size    1E0   flags  100
+   D .debug_abbrev                              size     91   flags  100
+   E .debug_info                                size    480   flags  100
+   F .debug_pubnames                            size    10B   flags  100
+  10 .debug_frame                               size    278   flags  100
+
