@@ -113,17 +113,43 @@
                                     113 ; code
                                     114 ;--------------------------------------------------------
                                     115 	.area CODE
-                                    116 ;	./src/main.c: 42: void main(void)
+                                    116 ;	./src/main.c: 43: void main(void)
                                     117 ;	-----------------------------------------
                                     118 ;	 function main
                                     119 ;	-----------------------------------------
       000000                        120 _main:
-                                    121 ;	./src/main.c: 45: while (1)
-      000000                        122 00102$:
-      000000 20 FE            [ 2]  123 	jra	00102$
-                                    124 ;	./src/main.c: 49: }
-      000002 81               [ 4]  125 	ret
-                                    126 	.area CODE
-                                    127 	.area CONST
-                                    128 	.area INITIALIZER
-                                    129 	.area CABS (ABS)
+                                    121 ;	./src/main.c: 45: CONFIG_UNUSED_PINS_STM8L001;
+      000000 C6 50 02         [ 1]  122 	ld	a, 0x5002
+      000003 AA 2A            [ 1]  123 	or	a, #0x2a
+      000005 C7 50 02         [ 1]  124 	ld	0x5002, a
+      000008 C6 50 07         [ 1]  125 	ld	a, 0x5007
+      00000B AA 17            [ 1]  126 	or	a, #0x17
+      00000D C7 50 07         [ 1]  127 	ld	0x5007, a
+      000010 C6 50 0C         [ 1]  128 	ld	a, 0x500c
+      000013 AA 60            [ 1]  129 	or	a, #0x60
+      000015 C7 50 0C         [ 1]  130 	ld	0x500c, a
+      000018 C6 50 11         [ 1]  131 	ld	a, 0x5011
+      00001B AA FE            [ 1]  132 	or	a, #0xfe
+      00001D C7 50 11         [ 1]  133 	ld	0x5011, a
+                                    134 ;	./src/main.c: 46: STARTUP_SWIM_DELAY_5S;
+      000020 89               [ 2]  135 	PUSHW X 
+      000021 88               [ 1]  136 	PUSH A 
+      000022 AE FF FF         [ 2]  137 	LDW X,#0xFFFF 
+      000025                        138 	 loop1:
+      000025 A6 32            [ 1]  139 	LD A,#50 
+      000027                        140 	 loop2:
+      000027 4A               [ 1]  141 	DEC A 
+      000028 26 FD            [ 1]  142 	JRNE loop2 
+      00002A 5A               [ 2]  143 	DECW X 
+      00002B 26 F8            [ 1]  144 	JRNE loop1 
+      00002D 84               [ 1]  145 	POP A 
+      00002E 85               [ 2]  146 	POPW X 
+                                    147 ;	./src/main.c: 49: while (1)
+      00002F                        148 00102$:
+      00002F 20 FE            [ 2]  149 	jra	00102$
+                                    150 ;	./src/main.c: 53: }
+      000031 81               [ 4]  151 	ret
+                                    152 	.area CODE
+                                    153 	.area CONST
+                                    154 	.area INITIALIZER
+                                    155 	.area CABS (ABS)

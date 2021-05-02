@@ -37,6 +37,8 @@ Symbol Table
   A _main                                                          000000 GR
     l_DATA                                                         ****** GX
     l_INITIALIZER                                                  ****** GX
+  A loop1                                                          000025 R
+  A loop2                                                          000027 R
     s_DATA                                                         ****** GX
     s_GSINIT                                                       ****** GX
     s_INITIALIZED                                                  ****** GX
@@ -58,6 +60,6 @@ Area Table
    7 GSFINAL                                    size      3   flags    0
    8 CONST                                      size      0   flags    0
    9 INITIALIZER                                size      0   flags    0
-   A CODE                                       size      3   flags    0
+   A CODE                                       size     32   flags    0
    B CABS                                       size      0   flags    8
 

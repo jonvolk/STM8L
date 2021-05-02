@@ -9,8 +9,30 @@ Symbol Table
     .__.H$L.                                                    =  000001 L
   7 A$main$103                                                     000000 GR
   5 A$main$110                                                     000080 GR
-  A A$main$131                                                     000000 GR
-  A A$main$139                                                     000003 GR
+  A A$main$130                                                     000000 GR
+  A A$main$132                                                     000003 GR
+  A A$main$134                                                     000005 GR
+  A A$main$136                                                     000008 GR
+  A A$main$138                                                     00000B GR
+  A A$main$140                                                     00000D GR
+  A A$main$142                                                     000010 GR
+  A A$main$144                                                     000013 GR
+  A A$main$146                                                     000015 GR
+  A A$main$148                                                     000018 GR
+  A A$main$150                                                     00001B GR
+  A A$main$152                                                     00001D GR
+  A A$main$158                                                     000020 GR
+  A A$main$159                                                     000021 GR
+  A A$main$160                                                     000022 GR
+  A A$main$162                                                     000025 GR
+  A A$main$164                                                     000027 GR
+  A A$main$165                                                     000028 GR
+  A A$main$166                                                     00002A GR
+  A A$main$167                                                     00002B GR
+  A A$main$168                                                     00002D GR
+  A A$main$169                                                     00002E GR
+  A A$main$176                                                     00002F GR
+  A A$main$184                                                     000032 GR
   5 A$main$45                                                      000000 GR
   5 A$main$46                                                      000004 GR
   5 A$main$47                                                      000008 GR
@@ -36,6 +58,11 @@ Symbol Table
   5 A$main$67                                                      000058 GR
   5 A$main$68                                                      00005C GR
   5 A$main$69                                                      000060 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 2.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
   5 A$main$70                                                      000064 GR
   5 A$main$71                                                      000068 GR
   5 A$main$72                                                      00006C GR
@@ -57,14 +84,9 @@ Symbol Table
  11 Ldebug_CIE0_end                                                000012 R
  11 Ldebug_CIE0_start                                              000004 R
   E Ldebug_abbrev                                                  000000 R
-  F Ldebug_info_end                                                00004E R
-ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 2.
-Hexadecimal [24-Bits]
-
-Symbol Table
-
+  F Ldebug_info_end                                                000061 R
   F Ldebug_info_start                                              000004 R
-  C Ldebug_line_end                                                0000D6 R
+  C Ldebug_line_end                                                0000E2 R
   C Ldebug_line_start                                              000004 R
   C Ldebug_line_stmt                                               0000BA R
   D Ldebug_loc_start                                               000000 R
@@ -72,11 +94,16 @@ Symbol Table
  10 Ldebug_pubnames_start                                          000004 R
   A Smain$main$0                                                =  000000 GR
   A Smain$main$1                                                =  000000 GR
+  A Smain$main$10                                               =  000033 GR
   A Smain$main$2                                                =  000000 GR
-  A Smain$main$3                                                =  000003 GR
-  A Smain$main$4                                                =  000003 GR
-  A Smain$main$5                                                =  000004 GR
-  A XG$main$0$0                                                 =  000003 GR
+  A Smain$main$3                                                =  000000 GR
+  A Smain$main$4                                                =  000020 GR
+  A Smain$main$5                                                =  000020 GR
+  A Smain$main$6                                                =  00002F GR
+  A Smain$main$7                                                =  00002F GR
+  A Smain$main$8                                                =  000032 GR
+  A Smain$main$9                                                =  000032 GR
+  A XG$main$0$0                                                 =  000032 GR
     _AWU_IRQHandler                                                ****** GX
     _COMP_IRQHandler                                               ****** GX
     _EXTI0_IRQHandler                                              ****** GX
@@ -91,6 +118,11 @@ Symbol Table
     _EXTID_IRQHandler                                              ****** GX
     _FLASH_IRQHandler                                              ****** GX
     _I2C_IRQHandler                                                ****** GX
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 3.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
     _SPI_IRQHandler                                                ****** GX
     _TIM2_CAP_IRQHandler                                           ****** GX
     _TIM2_UPD_OVF_TRG_BRK_IRQHandler                               ****** GX
@@ -107,13 +139,14 @@ Symbol Table
   A _main                                                          000000 GR
     l_DATA                                                         ****** GX
     l_INITIALIZER                                                  ****** GX
+  A loop1                                                          000025 R
+  A loop2                                                          000027 R
     s_DATA                                                         ****** GX
     s_GSINIT                                                       ****** GX
     s_INITIALIZED                                                  ****** GX
     s_INITIALIZER                                                  ****** GX
 
-
-ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 3.
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 4.
 Hexadecimal [24-Bits]
 
 Area Table
@@ -128,12 +161,12 @@ Area Table
    7 GSFINAL                                    size      3   flags    0
    8 CONST                                      size      0   flags    0
    9 INITIALIZER                                size      0   flags    0
-   A CODE                                       size      4   flags    0
+   A CODE                                       size     33   flags    0
    B CABS                                       size      0   flags    8
-   C .debug_line                                size     D6   flags  100
+   C .debug_line                                size     E2   flags  100
    D .debug_loc                                 size     14   flags  100
-   E .debug_abbrev                              size     1D   flags  100
-   F .debug_info                                size     4E   flags  100
+   E .debug_abbrev                              size     26   flags  100
+   F .debug_info                                size     61   flags  100
   10 .debug_pubnames                            size     1B   flags  100
   11 .debug_frame                               size     29   flags  100
 

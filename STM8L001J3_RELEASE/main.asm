@@ -113,15 +113,41 @@ __sdcc_program_startup:
 ; code
 ;--------------------------------------------------------
 	.area CODE
-;	./src/main.c: 42: void main(void)
+;	./src/main.c: 43: void main(void)
 ;	-----------------------------------------
 ;	 function main
 ;	-----------------------------------------
 _main:
-;	./src/main.c: 45: while (1)
+;	./src/main.c: 45: CONFIG_UNUSED_PINS_STM8L001;
+	ld	a, 0x5002
+	or	a, #0x2a
+	ld	0x5002, a
+	ld	a, 0x5007
+	or	a, #0x17
+	ld	0x5007, a
+	ld	a, 0x500c
+	or	a, #0x60
+	ld	0x500c, a
+	ld	a, 0x5011
+	or	a, #0xfe
+	ld	0x5011, a
+;	./src/main.c: 46: STARTUP_SWIM_DELAY_5S;
+	PUSHW X 
+	PUSH A 
+	LDW X,#0xFFFF 
+	 loop1:
+	LD A,#50 
+	 loop2:
+	DEC A 
+	JRNE loop2 
+	DECW X 
+	JRNE loop1 
+	POP A 
+	POPW X 
+;	./src/main.c: 49: while (1)
 00102$:
 	jra	00102$
-;	./src/main.c: 49: }
+;	./src/main.c: 53: }
 	ret
 	.area CODE
 	.area CONST

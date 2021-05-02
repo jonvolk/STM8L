@@ -114,7 +114,7 @@ __sdcc_program_startup:
 ;--------------------------------------------------------
 	.area CODE
 	Smain$main$0 ==.
-;	./src/main.c: 42: void main(void)
+;	./src/main.c: 43: void main(void)
 ; genLabel
 ;	-----------------------------------------
 ;	 function main
@@ -124,20 +124,65 @@ __sdcc_program_startup:
 _main:
 	Smain$main$1 ==.
 	Smain$main$2 ==.
-;	./src/main.c: 45: while (1)
+	Smain$main$3 ==.
+;	./src/main.c: 45: CONFIG_UNUSED_PINS_STM8L001;
+; genPointerGet
+	ld	a, 0x5002
+; genOr
+	or	a, #0x2a
+; genPointerSet
+	ld	0x5002, a
+; genPointerGet
+	ld	a, 0x5007
+; genOr
+	or	a, #0x17
+; genPointerSet
+	ld	0x5007, a
+; genPointerGet
+	ld	a, 0x500c
+; genOr
+	or	a, #0x60
+; genPointerSet
+	ld	0x500c, a
+; genPointerGet
+	ld	a, 0x5011
+; genOr
+	or	a, #0xfe
+; genPointerSet
+	ld	0x5011, a
+	Smain$main$4 ==.
+	Smain$main$4 ==.
+	Smain$main$5 ==.
+;	./src/main.c: 46: STARTUP_SWIM_DELAY_5S;
+;	genInline
+	PUSHW X 
+	PUSH A 
+	LDW X,#0xFFFF 
+	 loop1:
+	LD A,#50 
+	 loop2:
+	DEC A 
+	JRNE loop2 
+	DECW X 
+	JRNE loop1 
+	POP A 
+	POPW X 
+	Smain$main$6 ==.
+	Smain$main$7 ==.
+;	./src/main.c: 49: while (1)
 ; genLabel
 00102$:
 ; genGoto
 	jp	00102$
 ; genLabel
 00104$:
-	Smain$main$3 ==.
-;	./src/main.c: 49: }
+	Smain$main$8 ==.
+;	./src/main.c: 53: }
 ; genEndFunction
-	Smain$main$4 ==.
+	Smain$main$9 ==.
 	XG$main$0$0 ==.
 	ret
-	Smain$main$5 ==.
+	Smain$main$10 ==.
 	.area CODE
 	.area CONST
 	.area INITIALIZER
@@ -183,20 +228,30 @@ Ldebug_line_stmt:
 	.db	2
 	.dw	0,(Smain$main$0)
 	.db	3
-	.sleb128	41
+	.sleb128	42
 	.db	1
 	.db	9
-	.dw	Smain$main$2-Smain$main$0
+	.dw	Smain$main$3-Smain$main$0
+	.db	3
+	.sleb128	2
+	.db	1
+	.db	9
+	.dw	Smain$main$5-Smain$main$3
+	.db	3
+	.sleb128	1
+	.db	1
+	.db	9
+	.dw	Smain$main$7-Smain$main$5
 	.db	3
 	.sleb128	3
 	.db	1
 	.db	9
-	.dw	Smain$main$3-Smain$main$2
+	.dw	Smain$main$8-Smain$main$7
 	.db	3
 	.sleb128	4
 	.db	1
 	.db	9
-	.dw	1+Smain$main$4-Smain$main$3
+	.dw	1+Smain$main$9-Smain$main$8
 	.db	0
 	.uleb128	1
 	.db	1
@@ -205,7 +260,7 @@ Ldebug_line_end:
 	.area .debug_loc (NOLOAD)
 Ldebug_loc_start:
 	.dw	0,(Smain$main$1)
-	.dw	0,(Smain$main$5)
+	.dw	0,(Smain$main$10)
 	.dw	2
 	.db	120
 	.sleb128	1
@@ -227,9 +282,18 @@ Ldebug_abbrev:
 	.uleb128	8
 	.uleb128	0
 	.uleb128	0
+	.uleb128	3
+	.uleb128	11
+	.db	0
+	.uleb128	17
+	.uleb128	1
+	.uleb128	18
+	.uleb128	1
+	.uleb128	0
+	.uleb128	0
 	.uleb128	2
 	.uleb128	46
-	.db	0
+	.db	1
 	.uleb128	3
 	.uleb128	8
 	.uleb128	17
@@ -264,6 +328,13 @@ Ldebug_info_start:
 	.dw	0,(XG$main$0$0+1)
 	.db	1
 	.dw	0,(Ldebug_loc_start)
+	.uleb128	3
+	.dw	0,(Smain$main$2)
+	.dw	0,(Smain$main$4)
+	.uleb128	3
+	.dw	0,(Smain$main$4)
+	.dw	0,(Smain$main$6)
+	.uleb128	0
 	.uleb128	0
 	.uleb128	0
 	.uleb128	0
@@ -301,7 +372,7 @@ Ldebug_CIE0_end:
 	.dw	0,19
 	.dw	0,(Ldebug_CIE0_start-4)
 	.dw	0,(Smain$main$1)	;initial loc
-	.dw	0,Smain$main$5-Smain$main$1
+	.dw	0,Smain$main$10-Smain$main$1
 	.db	1
 	.dw	0,(Smain$main$1)
 	.db	14
